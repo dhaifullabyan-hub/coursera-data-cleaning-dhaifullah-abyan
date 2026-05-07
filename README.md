@@ -3,15 +3,19 @@ This repository is an assignment submitted by Dhaifullah Abyan Fadhil Ar Rasyid 
 **Files in this Repository**
 
 1. **run_analysis.R**: This R script performs the following steps:
+    
+  a.  Combines the training and test datasets to create a single dataset.
+  
+  b. Extracts only the mean and standard deviation for each measurement.
+    
+  c. Uses descriptive activity names to name the activities in the dataset.
+  
+  d. Labels the dataset with appropriate descriptive variable names.
+  
+  e. Creates a second, independent, tidy dataset with the mean of each variable for each activity and each subject.
 
-a. Combines the training and test datasets to create a single dataset.
-b. Extracts only the mean and standard deviation for each measurement.
-c. Uses descriptive activity names to name the activities in the dataset.
-d. Labels the dataset with appropriate descriptive variable names.
-e. Creates a second, independent, tidy dataset with the mean of each variable for each activity and each subject.
-
-2. **CodeBook.md**: This file describes the variables, data, and any transformations or work performed to clean the data.
-3. **tidy_data.txt:** This file contains the final tidy dataset with the mean of each variable for each activity and each subject.
+3. **CodeBook.md**: This file describes the variables, data, and any transformations or work performed to clean the data.
+4. **tidy_data.txt:** This file contains the final tidy dataset with the mean of each variable for each activity and each subject.
 
 **How to Run the Script**
 1. Download the data:  
